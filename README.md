@@ -33,7 +33,7 @@ claude --version
 
 A working install prints a version number followed by `(Claude Code)`. If your shell says `claude` is not found, the install folder is not on your PATH yet; see the [troubleshooting page](https://code.claude.com/docs/en/troubleshoot-install.md#command-not-found-claude-after-installation).
 
-<img src="images/install.png" alt="Claude Code install check" width="600">
+<img src="docs/images/install.png" alt="Claude Code install check" width="600">
 
 ---
 
@@ -50,9 +50,9 @@ claude
 
 On first use it prompts you to log in. Follow the prompts and finish authentication in your browser. Your credentials are stored, so you only do this once. To switch accounts later, type `/login` inside a running session.
 
-<img src="images/login-1.png" alt="Claude Code login prompt" width="600">
+<img src="docs/images/login-1.png" alt="Claude Code login prompt" width="600">
 
-<img src="images/login-2.png" alt="Claude Code login confirmation" width="600">
+<img src="docs/images/login-2.png" alt="Claude Code login confirmation" width="600">
 
 ### Understand permissions
 
@@ -81,8 +81,8 @@ GitHub side Claude Code runs git for you, but it needs credentials to talk to Gi
 >
 > _Source for the gh recommendation: the Best practices page. The exact `gh` steps above come from the GitHub CLI docs; double-check them there._
 
-<img src="images/gh-auth-1.png" alt="GitHub CLI setup" width="456">
-<img src="images/gh-auth-2.png" alt="GitHub CLI status" width="460">
+<img src="docs/images/gh-auth-1.png" alt="GitHub CLI setup" width="456">
+<img src="docs/images/gh-auth-2.png" alt="GitHub CLI status" width="460">
 
 ---
 
@@ -131,7 +131,7 @@ with Item 1, Item 2, and Item 3.
 
 Claude shows you the change and asks permission. Approve it.
 
-<img src="images/edit-readme.png" alt="Claude Code editing the README" width="588">
+<img src="docs/images/edit-readme.png" alt="Claude Code editing the README" width="588">
 
 **5. Commit.**
 
@@ -143,7 +143,7 @@ What files have I changed?
 Commit my changes with the message "Update README contents"
 ```
 
-<img src="images/commit.png" alt="Claude Code commit" width="600">
+<img src="docs/images/commit.png" alt="Claude Code commit" width="600">
 
 **6. Push.**
 
@@ -156,7 +156,7 @@ Commit my changes with the message "Update README contents"
 >
 > Then refresh the repo page on GitHub and confirm the new README shows up. That is the success criterion for this exercise. Repeat the edit, commit, and push at least once more.
 
-<img src="images/push.png" alt="Claude Code push" width="600">
+<img src="docs/images/push.png" alt="Claude Code push" width="600">
 
 ### Pull Request Workflow
 
@@ -208,7 +208,7 @@ Add a "Contributing" section to the README, then commit it with a descriptive me
 >
 > Claude Code uses `gh pr create` for this, which is why linking `gh` in the Configuration section matters. Equivalent prompt from the Best practices page: _"commit with a descriptive message and open a PR."_
 
-<img src="images/pr.png" alt="Pull request creation" width="600">
+<img src="docs/images/pr.png" alt="Pull request creation" width="600">
 
 **8. Review the changes and comment.**
 
@@ -220,7 +220,7 @@ Add a "Contributing" section to the README, then commit it with a descriptive me
 > [!IMPORTANT]
 > **GitHub side.** When you are satisfied, click **Merge pull request** in the GitHub interface. To repeat the workflow, start again at step 3.
 
-<img src="images/merge.png" alt="Merging the pull request" width="600">
+<img src="docs/images/merge.png" alt="Merging the pull request" width="600">
 
 ### Contributing this appendix to the tutorial repo
 
